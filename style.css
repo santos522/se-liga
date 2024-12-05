@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cinza01: #2b2d42ff;
+    --cinza02: #8d99aeff;
+    --branco: #edf2f4ff;
+    --vermelho01: #ef233cff;
+    --vermelho02: #d90429ff;
+    --preto: #000000;
+}
+
+header , footer{
+    background-color: var(--cinza01);
+    padding: 1.5em;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--cinza02);
+    font-size: 1.3em;
+    margin-right: 1.5em;
+}
+
+main{
+    background-color: var(--vermelho01);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding: 1em;
+    font-size: 2.5em;
+}
+h2{
+    padding: 1em;
+    font-size: 2em;
+    color: var(--branco);
+    
+}
+
+p{
+    padding: 1em;
+}
+.autor{
+    font-weight: bold;
+}
+
+.github{
+    text-decoration: none;
+    color: var(--branco);
+}
